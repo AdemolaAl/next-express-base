@@ -1,21 +1,24 @@
 {
-  "name": "nxt-start",
+  "name": "next-express-base",
   "version": "0.1.0",
   "private": true,
+  "type":"module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js ",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "next": "15.4.2",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.2"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.4.2",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "15.4.2"
   }
 }
